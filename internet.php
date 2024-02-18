@@ -40,11 +40,3 @@ echo "<p>The result is: $result</p>";
 
 <br>
 
-<br>
-
- <?php
- printf("pi= %5.3f", M_PI). "<br>";
- printf("%d in binary is %b", 25, 25)."<br>";
- printf("The ASCII Value of %c is %x hex", 72, 72). "<br>";
- printf("%s owns %d computers", "Tom", 5). "<br>";
-?>
