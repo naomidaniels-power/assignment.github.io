@@ -49,7 +49,7 @@
 
         /* Style for the box */
         .box {
-            background-color: #ded0d0;
+            background-color: hwb(0 82% 13%);
             padding: 20px;
             margin: 20px 0;
         }
@@ -83,34 +83,40 @@
             I love turning meaningless piece of data  into insightful and profitable turnovers through the power of coding.
         </p>
 
-        <!-- Box with a button -->
+        
         <div class="box">
             <p>Click the button below to view internet technologies assignment:</p>
-            <button onclick="redirectToNextPage()">Click Me</button>
+            <button onclick="redirectToAssignments()">Click Me</button>
         </div>
 
-        <div class="box">
-            <p>Click the button below to go to the string calculator form :</p>
-            <button onclick="redirectToNextPage()">Click Me</button>
-        </div>
+        
     </section>
-    
+    <section>
+        
+
+        
+        <div class="box">
+            <p>Click the button below to the string length calculator:</p>
+            <button onclick="redirectToStringLength()">Click Me</button>
+        </div>
+
+        
+    </section>
     <footer>
         <p>&copy; 2024 Joy Osa-Daniels. All rights reserved.</p>
     </footer>
 
     <script>
-        // JavaScript function to redirect to the next page
-        function redirectToNextPage() {
-            window.location.href = 'next-page.html'; // Replace 'next-page.html' with the actual URL of your next page
+        
+        function redirectToAssignments() {
+            window.location.href = 'next-page.html'; 
+        }
+
+        function redirectToStringLength() {
+            window.location.href = 'form.html'; 
         }
     </script>
-    <script>
-        // JavaScript function to redirect to the next page
-        function redirectToNextPage() {
-            window.location.href = 'form.html'; // Replace 'next-page.html' with the actual URL of your next page
-        }
-    </script>
+    
 
 </body>
 </html>
